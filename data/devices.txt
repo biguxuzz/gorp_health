@@ -1,0 +1,1 @@
+"Bound Devices (1)\n========================\n\n1. COROS PACE 2\n   Bluetooth ID: 25A9A3\n   Model Name: COROS B18\n   Serial Number: M18EE18276\n   Warranty Expires: 2025-08-11 15:49:54"

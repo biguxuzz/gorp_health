@@ -1,0 +1,100 @@
+"Stress Level — Last 14 days
+========================
+
+2026-09-16:
+Average Stress: 25 (Relaxed)
+Relaxed: No data
+Low: No data
+Medium: No data
+High: No data
+
+2026-09-15:
+Average Stress: 35 (Low)
+Relaxed: No data
+Low: No data
+Medium: No data
+High: No data
+
+2026-09-14:
+Average Stress: 33 (Low)
+Relaxed: No data
+Low: No data
+Medium: No data
+High: No data
+
+2026-09-13:
+Average Stress: 25 (Relaxed)
+Relaxed: No data
+Low: No data
+Medium: No data
+High: No data
+
+2026-09-12:
+Average Stress: 46 (Low)
+Relaxed: No data
+Low: No data
+Medium: No data
+High: No data
+
+2026-09-11:
+Average Stress: 37 (Low)
+Relaxed: No data
+Low: No data
+Medium: No data
+High: No data
+
+2026-09-10:
+Average Stress: 31 (Low)
+Relaxed: No data
+Low: No data
+Medium: No data
+High: No data
+
+2026-09-09:
+Average Stress: 26 (Low)
+Relaxed: No data
+Low: No data
+Medium: No data
+High: No data
+
+2026-09-08:
+Average Stress: 32 (Low)
+Relaxed: No data
+Low: No data
+Medium: No data
+High: No data
+
+2026-09-07:
+Average Stress: 27 (Low)
+Relaxed: No data
+Low: No data
+Medium: No data
+High: No data
+
+2026-09-06:
+Average Stress: 27 (Low)
+Relaxed: No data
+Low: No data
+Medium: No data
+High: No data
+
+2026-09-05:
+Average Stress: 40 (Low)
+Relaxed: No data
+Low: No data
+Medium: No data
+High: No data
+
+2026-09-04:
+Average Stress: 31 (Low)
+Relaxed: No data
+Low: No data
+Medium: No data
+High: No data
+
+2026-09-03:
+Average Stress: 36 (Low)
+Relaxed: No data
+Low: No data
+Medium: No data
+High: No data"

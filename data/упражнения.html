@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Зал Пн/Ср — визуальный справочник упражнений</title>
+<style>
+  :root { --accent:#0b5fa5; --bg:#f5f7fa; --card:#fff; --muted:#64748b; }
+  * { box-sizing:border-box; }
+  body { font-family:"Segoe UI",system-ui,sans-serif; margin:0; background:var(--bg); color:#1e293b; }
+  header { background:var(--accent); color:#fff; padding:22px 28px; }
+  header h1 { margin:0 0 6px; font-size:24px; }
+  header p { margin:0; opacity:.9; font-size:14px; }
+  nav { background:#fff; border-bottom:1px solid #e2e8f0; padding:10px 28px; position:sticky; top:0; z-index:5; }
+  nav a { color:var(--accent); text-decoration:none; font-weight:600; margin-right:18px; font-size:14px; }
+  main { max-width:1100px; margin:0 auto; padding:24px 28px 60px; }
+  section h2 { font-size:20px; border-left:4px solid var(--accent); padding-left:10px; margin:34px 0 6px; }
+  section p.intro { color:var(--muted); margin:0 0 18px; font-size:14px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:18px; }
+  .card { background:var(--card); border:1px solid #e2e8f0; border-radius:12px; overflow:hidden; box-shadow:0 1px 3px rgba(15,23,42,.06); display:flex; flex-direction:column; }
+  .card img { width:100%; height:210px; object-fit:cover; background:#eef2f7; }
+  .card .body { padding:14px 16px 16px; flex:1; display:flex; flex-direction:column; }
+  .card h3 { margin:0 0 2px; font-size:16px; }
+  .card .en { color:var(--muted); font-size:12px; margin-bottom:8px; }
+  .card .rx { display:inline-block; background:#e8f1fb; color:var(--accent); font-weight:700; border-radius:6px; padding:3px 8px; font-size:13px; margin-bottom:8px; }
+  .card ul { margin:0 0 10px; padding-left:18px; font-size:13.5px; line-height:1.45; }
+  .card ul li { margin-bottom:3px; }
+  .card a.video { margin-top:auto; align-self:flex-start; font-size:13px; color:var(--accent); text-decoration:none; border:1px solid var(--accent); border-radius:6px; padding:4px 10px; }
+  .card a.video:hover { background:var(--accent); color:#fff; }
+  .note { background:#fff8e6; border-left:3px solid #d97706; padding:10px 14px; border-radius:0 8px 8px 0; font-size:13px; margin:6px 0 0; }
+  footer { max-width:1100px; margin:0 auto; padding:0 28px 50px; }
+  footer .rules { background:#fff; border:1px solid #e2e8f0; border-radius:12px; padding:18px 22px; }
+  footer h2 { font-size:17px; margin:0 0 10px; }
+  footer ol { margin:0; padding-left:20px; font-size:14px; line-height:1.6; }
+  @media print { nav { display:none; } .card { break-inside:avoid; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Зал: понедельник и среда — визуальный справочник</h1>
+  <p>Пн — плечи, тяги, хват · Ср — низ, кор, лёгкие плечи · Разминка и утренняя зарядка · 14.09.2026</p>
+</header>
+<nav>
+  <a href="#mon">Понедельник</a><a href="#wed">Среда</a><a href="#warm">Разминка и утро</a><a href="#rules">Правила</a>
+</nav>
+<main>
+
+<section id="mon">
+  <h2>Понедельник — плечи, тяги, хват</h2>
+  <p class="intro">До вторника на воде ~24 часа: работаем средне, не в отказ. Разминка: 5 мин велотренажёр → резина (ротация 2×15, Y-T-W 2×10) → кошка-корова.</p>
+  <div class="grid">
+
+    <div class="card">
+      <img src="img/seated_cable_row.jpg" alt="Тяга горизонтального блока">
+      <div class="body">
+        <h3>1. Тяга горизонтального блока</h3>
+        <div class="en">Seated cable row</div>
+        <div class="rx">3×10–12 · отдых 90 с</div>
+        <ul>
+          <li>Спина нейтральная, без раскачки корпусом</li>
+          <li>Сначала свести лопатки, потом вести локти назад</li>
+          <li>В конечной точке — пауза 1 секунда</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=seated+cable+row+technique">▶ Видео</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/pullups.jpg" alt="Подтягивания">
+      <div class="body">
+        <h3>2. Подтягивания</h3>
+        <div class="en">Pull-ups (первые 2 недели — верхний блок)</div>
+        <div class="rx">3×6–10 · отдых 2 мин</div>
+        <ul>
+          <li>Хват на ширине плеч, большой палец обхватом</li>
+          <li>Без рывка и раскачки; внизу — полное выпрямление рук</li>
+          <li>Не тянуть шею вверх — работают лопатки</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=pull+up+proper+form">▶ Видео</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/incline_press.jpg" alt="Жим на наклонной скамье">
+      <div class="body">
+        <h3>3. Жим гантелей на наклонной 30°</h3>
+        <div class="en">Incline press (на фото штанга — у вас гантели, механика та же)</div>
+        <div class="rx">2–3×8–12 · отдых 90 с</div>
+        <ul>
+          <li>Лопатки сведены, поясница без «моста»</li>
+          <li>Гантели по траектории дуги, без отбива в верхней точке</li>
+          <li>Единственный жим в программе — баланс к тягам</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=incline+dumbbell+press+form">▶ Видео</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/ext_rotation.jpg" alt="Наружная ротация лежа на боку">
+      <div class="body">
+        <h3>4. Наружная ротация на боку</h3>
+        <div class="en">Side-lying external rotation</div>
+        <div class="rx">3×15–20 · отдых 45 с · гантель 2–4 кг</div>
+        <ul>
+          <li>Локоть прижат к боку, согнут на 90°</li>
+          <li>Темп медленный: 2 с вверх, 1 с пауза, 2 с вниз</li>
+          <li>Манжета — всегда легко и многоповторно</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=side+lying+external+rotation+dumbbell">▶ Видео</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/y_raise.jpg" alt="Y-подъёмы (скаптион)">
+      <div class="body">
+        <h3>5. Y-подъёмы (скаптион)</h3>
+        <div class="en">Dumbbell scaption / Y-raise</div>
+        <div class="rx">3×12–15 · отдых 60 с</div>
+        <ul>
+          <li>Лёжа лицом на наклонной 30–45°</li>
+          <li>Большие пальцы вверх, руки в букву Y</li>
+          <li>Вес маленький, без рывков — важнее чистота</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=incline+Y+raise+dumbbell">▶ Видео</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/scap_pullup.jpg" alt="Вис и лопаточные подтягивания">
+      <div class="body">
+        <h3>6. Вис на турнике</h3>
+        <div class="en">Dead hang (фото — исходная фаза лопаточного подтягивания)</div>
+        <div class="rx">2–3×макс · отдых 90 с</div>
+        <ul>
+          <li>Плечи чуть «вниз-назад», не виснуть на шее</li>
+          <li>Дышать, не задерживать дыхание</li>
+          <li>Прогрессия — секунды: 30 → 45 → 60+</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=dead+hang+technique">▶ Видео</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="wed">
+  <h2>Среда — низ, кор, лёгкие плечи</h2>
+  <p class="intro">Плечи только лёгкой резиной (смазка) — четверг на воде, они должны быть свежими. Разминка: 5 мин велотренажёр → 90/90 бёдра → выпад с поворотом.</p>
+  <div class="grid">
+
+    <div class="card">
+      <img src="img/goblet_squat.jpg" alt="Гоблет-присед">
+      <div class="body">
+        <h3>1. Гоблет-присед</h3>
+        <div class="en">Goblet squat</div>
+        <div class="rx">3×8–12 · отдых 2 мин</div>
+        <ul>
+          <li>Гантель вертикально у груди, локти внутри коленей</li>
+          <li>Колени идут по линии стоп, полная стопа давит в пол</li>
+          <li>Глубина комфортная, спина прямая</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=goblet+squat+form">▶ Видео</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/romanian_dl.jpg" alt="Румынская тяга">
+      <div class="body">
+        <h3>2. Румынская тяга</h3>
+        <div class="en">Romanian deadlift</div>
+        <div class="rx">3×8–12 · отдых 2 мин</div>
+        <ul>
+          <li>Таз назад, а не присед — шарнир в тазобедренном суставе</li>
+          <li>Спина нейтральная, снаряд близко к ногам</li>
+          <li>Продолжение утренней гиперэкстензии — задняя цепь</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=romanian+deadlift+technique">▶ Видео</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/rear_lunge.jpg" alt="Выпад назад с поворотом">
+      <div class="body">
+        <h3>3. Выпад назад с поворотом корпуса</h3>
+        <div class="en">Rear lunge + torso rotation (на фото без поворота — добавьте его)</div>
+        <div class="rx">2–3×8–10 на ногу · отдых 60 с</div>
+        <ul>
+          <li>Шаг назад, колено задней ноги к полу</li>
+          <li>Корпус поворачивается в сторону передней ноги</li>
+          <li>Руки у груди — вращение грудного отдела, не поясницы</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=reverse+lunge+with+rotation">▶ Видео</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/pallof.jpg" alt="Паллоф-пресс">
+      <div class="body">
+        <h3>4. Паллоф-пресс</h3>
+        <div class="en">Pallof press</div>
+        <div class="rx">3×10–12 на сторону · отдых 45 с</div>
+        <ul>
+          <li>Стоя боком к блоку на высоте груди</li>
+          <li>Выпрямить руки от груди и держать 2 с — корпус не вращается</li>
+          <li>Анти-ротация — прямой профиль нагрузки фристайла</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=pallof+press+technique">▶ Видео</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/wood_chop.jpg" alt="Дровосек на блоке">
+      <div class="body">
+        <h3>5. «Дровосек» на блоке</h3>
+        <div class="en">Cable wood chop (высокий → низкий)</div>
+        <div class="rx">3×10–12 на сторону · отдых 60 с</div>
+        <ul>
+          <li>Руки прямые — работают корпус и бёдра, не руки</li>
+          <li>Движение по диагонали, вес переносится с дальней на ближнюю ногу</li>
+          <li>Без рывка, контролируемый возврат</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=cable+wood+chop+high+to+low">▶ Видео</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/side_plank.jpg" alt="Боковая планка">
+      <div class="body">
+        <h3>6. Боковая планка</h3>
+        <div class="en">Side plank (фото — переходная фаза)</div>
+        <div class="rx">3×30–45 с на сторону · отдых 45 с</div>
+        <ul>
+          <li>Опора: локоть строго под плечом</li>
+          <li>Тело — прямая линия, таз не проваливается</li>
+          <li>Легче — с колена; тяжелее — с подъёмом верхней ноги</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=side+plank+form">▶ Видео</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="warm">
+  <h2>Разминка и утренняя зарядка</h2>
+  <p class="intro">Утро (ежедневно, с 13.09): гиперэкстензия + пресс, корпус свисает с кровати. В зале — как разминка перед Пн/Ср.</p>
+  <div class="grid">
+
+    <div class="card">
+      <img src="img/hyperext.jpg" alt="Гиперэкстензия">
+      <div class="body">
+        <h3>Гиперэкстензия (утро)</h3>
+        <div class="en">Back extension</div>
+        <div class="rx">1→3 подхода × 10–15</div>
+        <ul>
+          <li>Плавно, без переразгибания вверх</li>
+          <li>Прогрессия: добавлять подход раз в 2 недели</li>
+          <li>Домашний вариант — корпус свисает с края кровати</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=hyperextension+back+extension+technique">▶ Видео</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/superman.jpg" alt="Лодочка / супермен">
+      <div class="body">
+        <h3>«Лодочка» / супермен</h3>
+        <div class="en">Superman — прогрессия гиперэкстензии</div>
+        <div class="rx">2×10–15, удержание 2 с</div>
+        <ul>
+          <li>Одновременный подъём рук и ног</li>
+          <li>Шея нейтральна, взгляд в пол</li>
+          <li>Добавить на 5–6-й неделе зарядки</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=superman+exercise+form">▶ Видео</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/cat_stretch.jpg" alt="Кошка-корова">
+      <div class="body">
+        <h3>Кошка-корова</h3>
+        <div class="en">Cat-cow — мобильность грудного отдела</div>
+        <div class="rx">5–8 циклов, ежедневно</div>
+        <ul>
+          <li>Движение волной от таза к шее</li>
+          <li>Дыхание: выгиб — выдох, прогиб — вдох</li>
+          <li>Идеально утром и перед водой</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=cat+cow+stretch">▶ Видео</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/90_90.jpg" alt="90/90 бёдра">
+      <div class="body">
+        <h3>90/90 бёдра</h3>
+        <div class="en">90/90 hip — ротация тазобедренных</div>
+        <div class="rx">5 на сторону, перед сессией Ср</div>
+        <ul>
+          <li>Обе седалищные кости на весу, спина прямая</li>
+          <li>Перенос колена без завала корпуса</li>
+          <li>Ротация бедра — база для движений в лодке</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=90+90+hip+stretch">▶ Видео</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/w_raise.jpg" alt="W-разведения">
+      <div class="body">
+        <h3>Y-T-W с резиной (разминка)</h3>
+        <div class="en">Y — карточка №5 понедельника; на фото W-фаза (обратные разведения); T — между ними, palms down</div>
+        <div class="rx">2×10 каждая буква, перед залом</div>
+        <ul>
+          <li>Резина лёгкая, темп ровный</li>
+          <li>Лопатки — главное действующее лицо</li>
+          <li>Разминка, не работа: до лёгкого тепла</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=YTW+raise+bands">▶ Видео</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/scap_pullup.jpg" alt="Лопаточные подтягивания">
+      <div class="body">
+        <h3>Лопаточные подтягивания (разминка Пн)</h3>
+        <div class="en">Scapular pull-up</div>
+        <div class="rx">2×8–10, в начале понедельника</div>
+        <ul>
+          <li>На прямых руках — только лопатки вниз-вместе</li>
+          <li>Амплитуда маленькая, без сгибания локтей</li>
+          <li>Плюс виса: хват — расходник фристайла</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=scapular+pull+up">▶ Видео</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/farmers_walk.jpg" alt="Прогулка фермера">
+      <div class="body">
+        <h3>Бонус: прогулка фермера</h3>
+        <div class="en">Farmer's walk — вместо/вдобавок к вису</div>
+        <div class="rx">2×30–40 м, по настроению</div>
+        <ul>
+          <li>Хват + кор + трапеции одновременно</li>
+          <li>Плечи не поднимаются к ушам</li>
+          <li>Хорошо в конце среды, если есть силы</li>
+        </ul>
+        <a class="video" href="https://www.youtube.com/results?search_query=farmer+walk+form">▶ Видео</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+<footer id="rules">
+  <div class="rules">
+    <h2>Правила программы</h2>
+    <ol>
+      <li><b>Недели 1–2:</b> 2 подхода, вес «мог бы сделать ещё 3–4 повтора». <b>3–4:</b> 3 подхода. <b>5–6:</b> +вес, если все повторы чистые.</li>
+      <li><b>Манжета плеча — навсегда лёгкая:</b> ротации и Y-подъёмы делаются маленькими весами на 15+ повторов.</li>
+      <li>Повтор засчитан только при чистой технике. Боль в плече (не усталость) — стоп упражнению.</li>
+      <li>Пн — умеренно тяжело (до вторника на воде сутки). Ср — плечи только резиной (четверг на воде).</li>
+      <li>Контрольный срок — 6 недель (~26.10): сравниваем качественные минуты фристайла с серединой сентября.</li>
+    </ol>
+    <p class="note">Не медицинская рекомендация. При боли, головокружении, дискомфорте в груди — остановиться и обратиться к врачу.</p>
+  </div>
+</footer>
+</body>
+</html>
