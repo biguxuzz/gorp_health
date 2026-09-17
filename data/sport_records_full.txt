@@ -818,10 +818,24 @@
    Duration: 1:14:14 | Distance: 1.84 km
    Average Pace: 20:10 /km | Avg HR: 130 bpm | Calories: 834 kcal
    LabelId: 479344439553196237 | SportType: 700"
-"Sport Records — 2026-09-01 to 2026-10-01 (9 records)
+"Sport Records — 2026-09-01 to 2026-10-01 (11 records)
 ========================
 
-1. Rowing — 2026-09-15
+1. Strength — 2026-09-17
+   Location: Сила
+   Time Window: startTimestamp=1789617098 | endTimestamp=1789617803
+   Duration: 11:45 | Sets: 7
+ | Avg HR: 82 bpm | Calories: 72 kcal
+   LabelId: 480397433466028532 | SportType: 402
+
+2. Strength — 2026-09-16
+   Location: Сила
+   Time Window: startTimestamp=1789583227 | endTimestamp=1789586367
+   Duration: 52:20 | Sets: 18
+ | Avg HR: 110 bpm | Calories: 458 kcal
+   LabelId: 480396434078728294 | SportType: 402
+
+3. Rowing — 2026-09-15
    Location: Химки Гребля
    Start Coordinates: 55.965000, 37.416000
    Time Window: startTimestamp=1789490522 | endTimestamp=1789494405
@@ -829,14 +843,14 @@
    Average Pace: 0:27 /km | Avg HR: 98 bpm | Calories: 399 kcal
    LabelId: 480374799523152076 | SportType: 700
 
-2. Strength — 2026-09-14
+4. Strength — 2026-09-14
    Location: Сила
    Time Window: startTimestamp=1789410541 | endTimestamp=1789414316
    Duration: 1:02:55 | Sets: 17
  | Avg HR: 91 bpm | Calories: 314 kcal
    LabelId: 480351444566835502 | SportType: 402
 
-3. Rowing — 2026-09-12
+5. Rowing — 2026-09-12
    Location: Щекинский район Гребля
    Start Coordinates: 54.046001, 37.178001
    Time Window: startTimestamp=1789219636 | endTimestamp=1789222572
@@ -844,7 +858,7 @@
    Average Pace: 20:59 /km | Avg HR: 133 bpm | Calories: 572 kcal
    LabelId: 480295816687288320 | SportType: 700
 
-4. Rowing — 2026-09-12
+6. Rowing — 2026-09-12
    Location: Щекинский район Гребля
    Start Coordinates: 54.046001, 37.178001
    Time Window: startTimestamp=1789203584 | endTimestamp=1789207118
@@ -852,7 +866,7 @@
    Average Pace: 21:38 /km | Avg HR: 129 bpm | Calories: 651 kcal
    LabelId: 480295816416755917 | SportType: 700
 
-5. Rowing — 2026-09-10
+7. Rowing — 2026-09-10
    Location: Москва Гребля
    Start Coordinates: 55.803001, 37.431999
    Time Window: startTimestamp=1789059051 | endTimestamp=1789063225
@@ -860,7 +874,7 @@
    Average Pace: 37:35 /km | Avg HR: 104 bpm | Calories: 522 kcal
    LabelId: 480264823129539266 | SportType: 700
 
-6. Rowing — 2026-09-05
+8. Rowing — 2026-09-05
    Location: Щекинский район Гребля
    Start Coordinates: 54.046001, 37.178001
    Time Window: startTimestamp=1788614626 | endTimestamp=1788617658
@@ -868,7 +882,7 @@
    Average Pace: 22:27 /km | Avg HR: 117 bpm | Calories: 472 kcal
    LabelId: 480211748071178246 | SportType: 700
 
-7. Rowing — 2026-09-05
+9. Rowing — 2026-09-05
    Location: Щекинский район Гребля
    Start Coordinates: 54.047001, 37.178001
    Time Window: startTimestamp=1788598687 | endTimestamp=1788602335
@@ -876,7 +890,7 @@
    Average Pace: 19:44 /km | Avg HR: 120 bpm | Calories: 594 kcal
    LabelId: 480211748071178245 | SportType: 700
 
-8. Rowing — 2026-09-03
+10. Rowing — 2026-09-03
    Location: Москва Гребля
    Start Coordinates: 55.803001, 37.431999
    Time Window: startTimestamp=1788453595 | endTimestamp=1788457413
@@ -884,7 +898,7 @@
    Average Pace: 32:16 /km | Avg HR: 102 bpm | Calories: 456 kcal
    LabelId: 480095419685175597 | SportType: 700
 
-9. Rowing — 2026-09-01
+11. Rowing — 2026-09-01
    Location: Химки Гребля
    Start Coordinates: 55.973000, 37.400002
    Time Window: startTimestamp=1788280798 | endTimestamp=1788285069

@@ -1,8 +1,15 @@
 "Stress Level — Last 14 days
 ========================
 
-2026-09-16:
+2026-09-17:
 Average Stress: 25 (Relaxed)
+Relaxed: No data
+Low: No data
+Medium: No data
+High: No data
+
+2026-09-16:
+Average Stress: 34 (Low)
 Relaxed: No data
 Low: No data
 Medium: No data
@@ -87,13 +94,6 @@ High: No data
 
 2026-09-04:
 Average Stress: 31 (Low)
-Relaxed: No data
-Low: No data
-Medium: No data
-High: No data
-
-2026-09-03:
-Average Stress: 36 (Low)
 Relaxed: No data
 Low: No data
 Medium: No data

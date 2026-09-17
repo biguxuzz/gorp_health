@@ -1,10 +1,14 @@
-"Sleep HRV — 2026-09-10 to 2026-09-16
+"Sleep HRV — 2026-09-11 to 2026-09-17
 ========================
 Note: dates are wake-up days (each value comes from the night that ended that morning).
 
 HRV Assessment — Last 7 days
 ========================
 
+2026-09-17:
+  HRV Avg: 28 ms — Below normal
+  Normal Range: 31 - 39 ms
+  Baseline: 35 ms
 2026-09-16:
   HRV Avg: 41 ms — Above normal
   Normal Range: 31 - 39 ms
@@ -29,62 +33,10 @@ HRV Assessment — Last 7 days
   HRV Avg: 35 ms — Normal
   Normal Range: 30 - 38 ms
   Baseline: 34 ms
-2026-09-10:
-  HRV Avg: 39 ms — Normal
-  Normal Range: 29 - 39 ms
-  Baseline: 34 ms
 
 Sleep HRV Time Series — Last 7 days
 ========================
 
-2026-09-10:
-  timestamp=1788988190, timezone=12, hrv=41 ms, status=0, confidence=100
-  timestamp=1788988790, timezone=12, hrv=73 ms, status=0, confidence=96
-  timestamp=1788989390, timezone=12, hrv=42 ms, status=0, confidence=100
-  timestamp=1788989990, timezone=12, hrv=82 ms, status=0, confidence=96
-  timestamp=1788990590, timezone=12, hrv=28 ms, status=0, confidence=100
-  timestamp=1788991490, timezone=12, hrv=49 ms, status=0, confidence=100
-  timestamp=1788992090, timezone=12, hrv=25 ms, status=0, confidence=100
-  timestamp=1788992690, timezone=12, hrv=14 ms, status=0, confidence=100
-  timestamp=1788993290, timezone=12, hrv=47 ms, status=0, confidence=100
-  timestamp=1788993890, timezone=12, hrv=38 ms, status=0, confidence=100
-  timestamp=1788994490, timezone=12, hrv=44 ms, status=0, confidence=100
-  timestamp=1788995090, timezone=12, hrv=34 ms, status=0, confidence=100
-  timestamp=1788995990, timezone=12, hrv=25 ms, status=0, confidence=100
-  timestamp=1788996590, timezone=12, hrv=28 ms, status=0, confidence=100
-  timestamp=1788997190, timezone=12, hrv=21 ms, status=0, confidence=100
-  timestamp=1788997790, timezone=12, hrv=66 ms, status=0, confidence=89
-  timestamp=1788998390, timezone=12, hrv=57 ms, status=0, confidence=86
-  timestamp=1788998990, timezone=12, hrv=35 ms, status=0, confidence=100
-  timestamp=1788999890, timezone=12, hrv=36 ms, status=0, confidence=100
-  timestamp=1789000490, timezone=12, hrv=23 ms, status=0, confidence=100
-  timestamp=1789001090, timezone=12, hrv=32 ms, status=0, confidence=100
-  timestamp=1789001690, timezone=12, hrv=38 ms, status=0, confidence=100
-  timestamp=1789002290, timezone=12, hrv=32 ms, status=0, confidence=100
-  timestamp=1789002890, timezone=12, hrv=30 ms, status=0, confidence=100
-  timestamp=1789003490, timezone=12, hrv=70 ms, status=0, confidence=97
-  timestamp=1789004390, timezone=12, hrv=57 ms, status=0, confidence=96
-  timestamp=1789004990, timezone=12, hrv=32 ms, status=0, confidence=100
-  timestamp=1789005590, timezone=12, hrv=42 ms, status=0, confidence=100
-  timestamp=1789006190, timezone=12, hrv=36 ms, status=0, confidence=100
-  timestamp=1789006790, timezone=12, hrv=22 ms, status=0, confidence=100
-  timestamp=1789007390, timezone=12, hrv=33 ms, status=0, confidence=100
-  timestamp=1789008890, timezone=12, hrv=26 ms, status=0, confidence=100
-  timestamp=1789009490, timezone=12, hrv=25 ms, status=0, confidence=100
-  timestamp=1789010090, timezone=12, hrv=76 ms, status=0, confidence=86
-  timestamp=1789010690, timezone=12, hrv=46 ms, status=0, confidence=100
-  timestamp=1789011290, timezone=12, hrv=18 ms, status=0, confidence=100
-  timestamp=1789013990, timezone=12, hrv=36 ms, status=0, confidence=94
-  timestamp=1789015790, timezone=12, hrv=39 ms, status=0, confidence=94
-  timestamp=1789056890, timezone=12, hrv=47 ms, status=0, confidence=91
-  timestamp=1789069190, timezone=12, hrv=18 ms, status=0, confidence=100
-  timestamp=1789070690, timezone=12, hrv=50 ms, status=0, confidence=97
-  timestamp=1789071290, timezone=12, hrv=46 ms, status=0, confidence=100
-  timestamp=1789071590, timezone=12, hrv=35 ms, status=0, confidence=100
-  timestamp=1789072490, timezone=12, hrv=30 ms, status=0, confidence=100
-  timestamp=1789072790, timezone=12, hrv=38 ms, status=0, confidence=100
-  timestamp=1789073390, timezone=12, hrv=43 ms, status=0, confidence=100
-  timestamp=1789073990, timezone=12, hrv=35 ms, status=0, confidence=100
 2026-09-11:
   timestamp=1789074590, timezone=12, hrv=66 ms, status=0, confidence=96
   timestamp=1789075190, timezone=12, hrv=41 ms, status=0, confidence=100
@@ -400,4 +352,58 @@ Sleep HRV Time Series — Last 7 days
   timestamp=1789501190, timezone=12, hrv=32 ms, status=0, confidence=100
   timestamp=1789501490, timezone=12, hrv=34 ms, status=0, confidence=100
   timestamp=1789502090, timezone=12, hrv=64 ms, status=0, confidence=100
-  timestamp=1789502690, timezone=12, hrv=49 ms, status=0, confidence=100"
+  timestamp=1789502690, timezone=12, hrv=49 ms, status=0, confidence=100
+2026-09-16:
+  timestamp=1789550390, timezone=12, hrv=60 ms, status=0, confidence=93
+  timestamp=1789551290, timezone=12, hrv=88 ms, status=0, confidence=87
+  timestamp=1789557890, timezone=12, hrv=16 ms, status=0, confidence=100
+  timestamp=1789558190, timezone=12, hrv=34 ms, status=0, confidence=93
+  timestamp=1789563890, timezone=12, hrv=62 ms, status=0, confidence=86
+  timestamp=1789580090, timezone=12, hrv=21 ms, status=0, confidence=100
+  timestamp=1789580990, timezone=12, hrv=24 ms, status=0, confidence=100
+  timestamp=1789588790, timezone=12, hrv=13 ms, status=0, confidence=100
+  timestamp=1789589090, timezone=12, hrv=28 ms, status=0, confidence=100
+  timestamp=1789589390, timezone=12, hrv=23 ms, status=0, confidence=100
+  timestamp=1789589690, timezone=12, hrv=20 ms, status=0, confidence=100
+  timestamp=1789590290, timezone=12, hrv=23 ms, status=0, confidence=100
+  timestamp=1789590590, timezone=12, hrv=25 ms, status=0, confidence=100
+  timestamp=1789591190, timezone=12, hrv=39 ms, status=0, confidence=100
+  timestamp=1789591790, timezone=12, hrv=39 ms, status=0, confidence=91
+2026-09-17:
+  timestamp=1789593290, timezone=12, hrv=19 ms, status=0, confidence=100
+  timestamp=1789593890, timezone=12, hrv=30 ms, status=0, confidence=100
+  timestamp=1789594190, timezone=12, hrv=29 ms, status=0, confidence=100
+  timestamp=1789594490, timezone=12, hrv=32 ms, status=0, confidence=100
+  timestamp=1789595090, timezone=12, hrv=39 ms, status=0, confidence=97
+  timestamp=1789595690, timezone=12, hrv=21 ms, status=0, confidence=100
+  timestamp=1789596590, timezone=12, hrv=29 ms, status=0, confidence=100
+  timestamp=1789597190, timezone=12, hrv=26 ms, status=0, confidence=100
+  timestamp=1789597790, timezone=12, hrv=28 ms, status=0, confidence=100
+  timestamp=1789598390, timezone=12, hrv=49 ms, status=0, confidence=100
+  timestamp=1789598990, timezone=12, hrv=30 ms, status=0, confidence=100
+  timestamp=1789599590, timezone=12, hrv=51 ms, status=0, confidence=100
+  timestamp=1789600490, timezone=12, hrv=52 ms, status=0, confidence=94
+  timestamp=1789601090, timezone=12, hrv=17 ms, status=0, confidence=100
+  timestamp=1789601690, timezone=12, hrv=28 ms, status=0, confidence=100
+  timestamp=1789602290, timezone=12, hrv=22 ms, status=0, confidence=100
+  timestamp=1789602890, timezone=12, hrv=26 ms, status=0, confidence=100
+  timestamp=1789603490, timezone=12, hrv=27 ms, status=0, confidence=100
+  timestamp=1789604090, timezone=12, hrv=24 ms, status=0, confidence=100
+  timestamp=1789604990, timezone=12, hrv=33 ms, status=0, confidence=100
+  timestamp=1789605590, timezone=12, hrv=16 ms, status=0, confidence=100
+  timestamp=1789606190, timezone=12, hrv=32 ms, status=0, confidence=100
+  timestamp=1789606790, timezone=12, hrv=26 ms, status=0, confidence=100
+  timestamp=1789607390, timezone=12, hrv=31 ms, status=0, confidence=100
+  timestamp=1789607990, timezone=12, hrv=36 ms, status=0, confidence=100
+  timestamp=1789608590, timezone=12, hrv=20 ms, status=0, confidence=100
+  timestamp=1789609490, timezone=12, hrv=26 ms, status=0, confidence=100
+  timestamp=1789610090, timezone=12, hrv=26 ms, status=0, confidence=100
+  timestamp=1789610690, timezone=12, hrv=27 ms, status=0, confidence=100
+  timestamp=1789611290, timezone=12, hrv=18 ms, status=0, confidence=100
+  timestamp=1789611890, timezone=12, hrv=21 ms, status=0, confidence=100
+  timestamp=1789612490, timezone=12, hrv=26 ms, status=0, confidence=100
+  timestamp=1789613090, timezone=12, hrv=18 ms, status=0, confidence=100
+  timestamp=1789613990, timezone=12, hrv=37 ms, status=0, confidence=100
+  timestamp=1789614590, timezone=12, hrv=16 ms, status=0, confidence=100
+  timestamp=1789615190, timezone=12, hrv=21 ms, status=0, confidence=86
+  timestamp=1789615790, timezone=12, hrv=22 ms, status=0, confidence=100"
